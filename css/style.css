@@ -51,13 +51,13 @@ header {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
-#lang {
+.lang {
 	position: absolute;
 	top: -20px;
 	right: 20px;
 	opacity: 0.6;
 }
-#lang span {
+.lang span {
 	display: inline-block;
 	height: 15px;
 	width: 35px;
@@ -67,13 +67,13 @@ header {
 	padding: 5px;
 	text-align: center;
 }
-#lang span a {
+.lang span a {
 	color: #edeeef;
 	font-size: 15px;
 	font-weight: 400;
 	text-decoration: none;
 }
-#logoSH {
+.logoSH {
 	height: 250px;
 	width: 250px;
 	position: absolute;
@@ -82,7 +82,7 @@ header {
 	background-image:  url(../img/logoSH.png);
 	background-size: cover;
 }
-#nametop {
+.nametop {
 	height: auto;
 	width: auto;
 	padding-left: 100px;
@@ -93,10 +93,10 @@ header {
 	color: #abafb6;
 	text-shadow: 0 0 20px #02043f;
 }
-#nametop:hover {
+.nametop:hover {
 	color: #fff;
 }
-#infotop {
+.infotop {
 	height: 90px;
 	width: 70%;
 	margin: 0 auto;
@@ -108,22 +108,22 @@ header {
 	font-size: 15px;
 	font-weight: 600;
 }
-main#smarthouse {
+main.smarthouse {
 	height: auto;
 	width: 100%;
 	position: relative;
 }
-nav#navmenu {
+nav.navmenu {
 	height: 70px;
 	width: 100%;
 	background-color: #02043f;
 }
-ul#topmenuline {
+ul.topmenuline {
 	height: 100%;
 	width: 80%;
 	margin: 0 auto;
 }
-ul#topmenuline li {
+ul.topmenuline li {
 	display: inline-block;
 	height: 100%;
 	width: 20%;
@@ -134,24 +134,24 @@ ul#topmenuline li {
 	font-weight: bold;
 	color: #abafb6;
 }
-ul#topmenuline li a{
+ul.topmenuline li a{
 	color: #abafb6;
 	text-decoration: none;
 	text-shadow: 0 0 5px #738aa9;
 }
-ul#topmenuline li a:hover{
+ul.topmenuline li a:hover{
 	color: #2a4f96;
 	text-shadow: none;
 	font-size: 25px;
 }
-#infomain {
+.infomain {
 	height: auto;
 	min-height: 340px;
 	width: auto;
 	background-color: #f1f2f2;
 	position: relative;
 }
-#infopart {
+.infopart {
 	height: auto;
 	width: 80%;
 	margin: 0 auto;
@@ -189,18 +189,18 @@ ul#topmenuline li a:hover{
 	margin-bottom: 30px;
 	line-height: 50px;
 }
-#benefitside {
+.benefitside {
 	height: auto;
 	width: 100%;
 	text-align: center;
 	padding: 20px 0;
 }
-#benefitside:after {
+.benefitside:after {
 	content: "";
 	display: block;
 	clear: both;
 }
-#partline {
+.partline {
 	height: auto;
 	width: 80%;
 	margin: 0 auto;
@@ -219,15 +219,15 @@ ul#topmenuline li a:hover{
 	font-size: 30px;
 	text-shadow: 0 0 10px #738aa9;
 }
-#light,
-#climate {
+.light,
+.climate {
 	height: auto;
 	width: 100%;
 	padding: 20px 0;
 	background-color: #02043f;
 	color: #edeeef;
 }
-#light .bgimg {
+.light .bgimg {
 	height: 200px;
 	width: 20%;
 	background-image: url(../img/50244.png);
@@ -237,10 +237,10 @@ ul#topmenuline li a:hover{
 	float: right;
 	padding: 20px;
 }
-#light {
+.light {
 	background-image: url(../img/572.png);
 }
-#climate .bgimg {
+.climate .bgimg {
 	height: 200px;
 	width: 20%;
 	background-image: url(../img/klimat.png);
@@ -250,44 +250,44 @@ ul#topmenuline li a:hover{
 	float: right;
 	padding: 20px;
 }
-#water {
+.water {
 	background-image: url(../img/bgBen.png);
 }
-#climate {
+.climate {
 	background-image: url(../img/Teka.png);
 }
-#media {
+.media {
 	background-image: url(../img/age.png);
 }
-#light .texttitle,
-#climate .texttitle {
+.light .texttitle,
+.climate .texttitle {
 	color: #edeeef;
 	text-align: center;
 }
-#light .textblock,
-#climate .textblock {
+.light .textblock,
+.climate .textblock {
 	color: #edeeef;
 	height: auto;
 	width: 80%;
 	margin: 20px auto;
 }
-#light:after,
-#water:after,
-#climate:after,
-#media:after {
+.light:after,
+.water:after,
+.climate:after,
+.media:after {
 	content: "";
 	display: block;
 	clear: both;
 }
-#water,
-#media {
+.water,
+.media {
 	height: auto;
 	width: 100%;
 	padding: 20px 0;
 	background-color: #edeeef;
 	color: #02043f;
 }
-#water .bgimg {
+.water .bgimg {
 	height: 200px;
 	width: 20%;
 	background-image: url(../img/pict1.png);
@@ -297,7 +297,7 @@ ul#topmenuline li a:hover{
 	float: left;
 	padding: 20px;
 }
-#media .bgimg {
+.media .bgimg {
 	height: 200px;
 	width: 20%;
 	background-image: url(../img/49985.png);
@@ -307,23 +307,23 @@ ul#topmenuline li a:hover{
 	float: left;
 	padding: 20px;
 }
-#water .texttitle,
-#media .texttitle,
-#sstech .texttitle,
-#portlist .texttitle {
+.water .texttitle,
+.media .texttitle,
+.sstech .texttitle,
+.portlist .texttitle {
 	text-align: center;
 }
-#water .textblock,
-#media .textblock,
-#sstech .textblock {
+.water .textblock,
+.media .textblock,
+.sstech .textblock {
 	height: auto;
 	width: 80%;
 	margin: 20px auto;
 }
-#sstech .textblock {
+.sstech .textblock {
 	font-weight: 800;
 }
-#sstech {
+.sstech {
 	height: auto;
 	width: 100%;
 	padding: 20px 0;
@@ -333,18 +333,18 @@ ul#topmenuline li a:hover{
 	background-repeat: no-repeat;
 	background-position: center;
 }
-#portlist {
+.portlist {
 	height: auto;
 	width: 100%;
 	text-align: center;
 	padding: 20px 0;
 }
-#portlist:after {
+.portlist:after {
 	content: "";
 	display: block;
 	clear: both;
 }
-#portline {
+.portline {
 	height: auto;
 	width: 80%;
 	margin: 0 auto;
@@ -373,7 +373,7 @@ footer {
 	width: 100%;
 	background-color: #414974;
 }
-#footertext {
+.footertext {
 	height: auto;
 	width: auto;
 	padding-top: 30px;
